@@ -1,0 +1,286 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Aug 24 23:19:17 2023
+# Process ID: 7096
+# Current directory: C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1
+# Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/design_1_wrapper.vds
+# Journal file: C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/ip_repo/HDC1080Driver_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.cache/ip 
+Command: synth_design -top design_1_wrapper -part xcku3p-ffvb676-1-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcku3p'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcku3p'
+INFO: [Device 21-403] Loading part xcku3p-ffvb676-1-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 6044
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1792.969 ; gain = 151.172
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:23]
+INFO: [Synth 8-3491] module 'design_1' declared at 'c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/synth/design_1.vhd:868' bound to instance 'design_1_i' of component 'design_1' [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:33]
+INFO: [Synth 8-638] synthesizing module 'design_1' [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/synth/design_1.vhd:881]
+INFO: [Synth 8-3491] module 'design_1_HDC1080Driver_0_0' declared at 'C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/.Xil/Vivado-7096-Sam/realtime/design_1_HDC1080Driver_0_0_stub.vhdl:5' bound to instance 'HDC1080Driver_0' of component 'design_1_HDC1080Driver_0_0' [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/synth/design_1.vhd:1092]
+INFO: [Synth 8-638] synthesizing module 'design_1_HDC1080Driver_0_0' [C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/.Xil/Vivado-7096-Sam/realtime/design_1_HDC1080Driver_0_0_stub.vhdl:34]
+INFO: [Synth 8-3491] module 'design_1_clk_wiz_1_0' declared at 'C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/.Xil/Vivado-7096-Sam/realtime/design_1_clk_wiz_1_0_stub.vhdl:5' bound to instance 'clk_wiz_1' of component 'design_1_clk_wiz_1_0' [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/synth/design_1.vhd:1118]
+INFO: [Synth 8-638] synthesizing module 'design_1_clk_wiz_1_0' [C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/.Xil/Vivado-7096-Sam/realtime/design_1_clk_wiz_1_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_mdm_1_0' declared at 'C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/.Xil/Vivado-7096-Sam/realtime/design_1_mdm_1_0_stub.vhdl:5' bound to instance 'mdm_1' of component 'design_1_mdm_1_0' [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/synth/design_1.vhd:1125]
+INFO: [Synth 8-638] synthesizing module 'design_1_mdm_1_0' [C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/.Xil/Vivado-7096-Sam/realtime/design_1_mdm_1_0_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'design_1_microblaze_0_0' declared at 'C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/.Xil/Vivado-7096-Sam/realtime/design_1_microblaze_0_0_stub.vhdl:5' bound to instance 'microblaze_0' of component 'design_1_microblaze_0_0' [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/synth/design_1.vhd:1138]
+INFO: [Synth 8-638] synthesizing module 'design_1_microblaze_0_0' [C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/.Xil/Vivado-7096-Sam/realtime/design_1_microblaze_0_0_stub.vhdl:63]
+INFO: [Synth 8-638] synthesizing module 'design_1_microblaze_0_axi_periph_0' [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/synth/design_1.vhd:732]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_1RZP34U' [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/synth/design_1.vhd:619]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_1RZP34U' (1#1) [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/synth/design_1.vhd:619]
+INFO: [Synth 8-256] done synthesizing module 'design_1_microblaze_0_axi_periph_0' (2#1) [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/synth/design_1.vhd:732]
+INFO: [Synth 8-638] synthesizing module 'microblaze_0_local_memory_imp_1K0VQXK' [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/synth/design_1.vhd:40]
+INFO: [Synth 8-3491] module 'design_1_dlmb_bram_if_cntlr_0' declared at 'C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/.Xil/Vivado-7096-Sam/realtime/design_1_dlmb_bram_if_cntlr_0_stub.vhdl:5' bound to instance 'dlmb_bram_if_cntlr' of component 'design_1_dlmb_bram_if_cntlr_0' [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/synth/design_1.vhd:254]
+INFO: [Synth 8-638] synthesizing module 'design_1_dlmb_bram_if_cntlr_0' [C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/.Xil/Vivado-7096-Sam/realtime/design_1_dlmb_bram_if_cntlr_0_stub.vhdl:31]
+INFO: [Synth 8-3491] module 'design_1_dlmb_v10_0' declared at 'C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/.Xil/Vivado-7096-Sam/realtime/design_1_dlmb_v10_0_stub.vhdl:5' bound to instance 'dlmb_v10' of component 'design_1_dlmb_v10_0' [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/synth/design_1.vhd:308]
+INFO: [Synth 8-638] synthesizing module 'design_1_dlmb_v10_0' [C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/.Xil/Vivado-7096-Sam/realtime/design_1_dlmb_v10_0_stub.vhdl:36]
+INFO: [Synth 8-3491] module 'design_1_ilmb_bram_if_cntlr_0' declared at 'C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/.Xil/Vivado-7096-Sam/realtime/design_1_ilmb_bram_if_cntlr_0_stub.vhdl:5' bound to instance 'ilmb_bram_if_cntlr' of component 'design_1_ilmb_bram_if_cntlr_0' [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/synth/design_1.vhd:336]
+INFO: [Synth 8-638] synthesizing module 'design_1_ilmb_bram_if_cntlr_0' [C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/.Xil/Vivado-7096-Sam/realtime/design_1_ilmb_bram_if_cntlr_0_stub.vhdl:31]
+INFO: [Synth 8-3491] module 'design_1_ilmb_v10_0' declared at 'C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/.Xil/Vivado-7096-Sam/realtime/design_1_ilmb_v10_0_stub.vhdl:5' bound to instance 'ilmb_v10' of component 'design_1_ilmb_v10_0' [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/synth/design_1.vhd:390]
+INFO: [Synth 8-638] synthesizing module 'design_1_ilmb_v10_0' [C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/.Xil/Vivado-7096-Sam/realtime/design_1_ilmb_v10_0_stub.vhdl:36]
+INFO: [Synth 8-3491] module 'design_1_lmb_bram_0' declared at 'C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/.Xil/Vivado-7096-Sam/realtime/design_1_lmb_bram_0_stub.vhdl:5' bound to instance 'lmb_bram' of component 'design_1_lmb_bram_0' [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/synth/design_1.vhd:418]
+INFO: [Synth 8-638] synthesizing module 'design_1_lmb_bram_0' [C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/.Xil/Vivado-7096-Sam/realtime/design_1_lmb_bram_0_stub.vhdl:27]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_0_local_memory_imp_1K0VQXK' (3#1) [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/synth/design_1.vhd:40]
+INFO: [Synth 8-3491] module 'design_1_rst_clk_wiz_1_100M_0' declared at 'C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/.Xil/Vivado-7096-Sam/realtime/design_1_rst_clk_wiz_1_100M_0_stub.vhdl:5' bound to instance 'rst_clk_wiz_1_100M' of component 'design_1_rst_clk_wiz_1_100M_0' [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/synth/design_1.vhd:1264]
+INFO: [Synth 8-638] synthesizing module 'design_1_rst_clk_wiz_1_100M_0' [C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/.Xil/Vivado-7096-Sam/realtime/design_1_rst_clk_wiz_1_100M_0_stub.vhdl:21]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (4#1) [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/synth/design_1.vhd:881]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (5#1) [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 1848.305 ; gain = 206.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 1866.234 ; gain = 224.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 1866.234 ; gain = 224.438
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1866.234 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_HDC1080Driver_0_0/design_1_HDC1080Driver_0_0/design_1_HDC1080Driver_0_0_in_context.xdc] for cell 'design_1_i/HDC1080Driver_0'
+Finished Parsing XDC File [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_HDC1080Driver_0_0/design_1_HDC1080Driver_0_0/design_1_HDC1080Driver_0_0_in_context.xdc] for cell 'design_1_i/HDC1080Driver_0'
+Parsing XDC File [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0/design_1_microblaze_0_0_in_context.xdc] for cell 'design_1_i/microblaze_0'
+Finished Parsing XDC File [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0/design_1_microblaze_0_0_in_context.xdc] for cell 'design_1_i/microblaze_0'
+Parsing XDC File [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_dlmb_v10_0/design_1_dlmb_v10_0/design_1_dlmb_v10_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_v10'
+Finished Parsing XDC File [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_dlmb_v10_0/design_1_dlmb_v10_0/design_1_dlmb_v10_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_v10'
+Parsing XDC File [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_ilmb_v10_0/design_1_ilmb_v10_0/design_1_dlmb_v10_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_v10'
+Finished Parsing XDC File [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_ilmb_v10_0/design_1_ilmb_v10_0/design_1_dlmb_v10_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_v10'
+Parsing XDC File [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_dlmb_bram_if_cntlr_0/design_1_dlmb_bram_if_cntlr_0/design_1_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Finished Parsing XDC File [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_dlmb_bram_if_cntlr_0/design_1_dlmb_bram_if_cntlr_0/design_1_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Parsing XDC File [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_ilmb_bram_if_cntlr_0/design_1_ilmb_bram_if_cntlr_0/design_1_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Finished Parsing XDC File [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_ilmb_bram_if_cntlr_0/design_1_ilmb_bram_if_cntlr_0/design_1_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Parsing XDC File [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_lmb_bram_0/design_1_lmb_bram_0/design_1_lmb_bram_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/lmb_bram'
+Finished Parsing XDC File [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_lmb_bram_0/design_1_lmb_bram_0/design_1_lmb_bram_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/lmb_bram'
+Parsing XDC File [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_mdm_1_0/design_1_mdm_1_0/design_1_mdm_1_0_in_context.xdc] for cell 'design_1_i/mdm_1'
+Finished Parsing XDC File [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_mdm_1_0/design_1_mdm_1_0/design_1_mdm_1_0_in_context.xdc] for cell 'design_1_i/mdm_1'
+Parsing XDC File [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0_in_context.xdc] for cell 'design_1_i/clk_wiz_1'
+Finished Parsing XDC File [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0_in_context.xdc] for cell 'design_1_i/clk_wiz_1'
+Parsing XDC File [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_1_100M_0/design_1_rst_clk_wiz_1_100M_0/design_1_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'design_1_i/rst_clk_wiz_1_100M'
+Finished Parsing XDC File [c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_1_100M_0/design_1_rst_clk_wiz_1_100M_0/design_1_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'design_1_i/rst_clk_wiz_1_100M'
+Parsing XDC File [C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1895.930 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1895.930 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'design_1_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1895.930 ; gain = 254.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcku3p-ffvb676-1-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1895.930 ; gain = 254.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for diff_clock_rtl_0_clk_n. (constraint file  c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for diff_clock_rtl_0_clk_n. (constraint file  c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for diff_clock_rtl_0_clk_p. (constraint file  c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for diff_clock_rtl_0_clk_p. (constraint file  c:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0_in_context.xdc, line 6).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/HDC1080Driver_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/microblaze_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/microblaze_0_local_memory/dlmb_v10. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/microblaze_0_local_memory/ilmb_v10. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/microblaze_0_local_memory/dlmb_bram_if_cntlr. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/microblaze_0_local_memory/ilmb_bram_if_cntlr. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/microblaze_0_local_memory/lmb_bram. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/mdm_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/clk_wiz_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/rst_clk_wiz_1_100M. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/microblaze_0_axi_periph. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1895.930 ; gain = 254.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1895.930 ; gain = 254.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1368 (col length:96)
+BRAMs: 720 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1895.930 ; gain = 254.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 2381.461 ; gain = 739.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 2381.535 ; gain = 739.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 2401.164 ; gain = 759.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:05 ; elapsed = 00:00:20 . Memory (MB): peak = 2406.938 ; gain = 765.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:05 ; elapsed = 00:00:20 . Memory (MB): peak = 2406.938 ; gain = 765.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:05 ; elapsed = 00:00:20 . Memory (MB): peak = 2406.938 ; gain = 765.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:05 ; elapsed = 00:00:20 . Memory (MB): peak = 2406.938 ; gain = 765.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:20 . Memory (MB): peak = 2406.938 ; gain = 765.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:05 ; elapsed = 00:00:20 . Memory (MB): peak = 2406.938 ; gain = 765.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------------+----------+
+|      |BlackBox name                 |Instances |
++------+------------------------------+----------+
+|1     |design_1_HDC1080Driver_0_0    |         1|
+|2     |design_1_clk_wiz_1_0          |         1|
+|3     |design_1_mdm_1_0              |         1|
+|4     |design_1_microblaze_0_0       |         1|
+|5     |design_1_rst_clk_wiz_1_100M_0 |         1|
+|6     |design_1_dlmb_bram_if_cntlr_0 |         1|
+|7     |design_1_dlmb_v10_0           |         1|
+|8     |design_1_ilmb_bram_if_cntlr_0 |         1|
+|9     |design_1_ilmb_v10_0           |         1|
+|10    |design_1_lmb_bram_0           |         1|
++------+------------------------------+----------+
+
+Report Cell Usage: 
++------+-----------------------------------+------+
+|      |Cell                               |Count |
++------+-----------------------------------+------+
+|1     |design_1_HDC1080Driver_0_0_bbox    |     1|
+|2     |design_1_clk_wiz_1_0_bbox          |     1|
+|3     |design_1_dlmb_bram_if_cntlr_0_bbox |     1|
+|4     |design_1_dlmb_v10_0_bbox           |     1|
+|5     |design_1_ilmb_bram_if_cntlr_0_bbox |     1|
+|6     |design_1_ilmb_v10_0_bbox           |     1|
+|7     |design_1_lmb_bram_0_bbox           |     1|
+|8     |design_1_mdm_1_0_bbox              |     1|
+|9     |design_1_microblaze_0_0_bbox       |     1|
+|10    |design_1_rst_clk_wiz_1_100M_0_bbox |     1|
++------+-----------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:05 ; elapsed = 00:00:20 . Memory (MB): peak = 2406.938 ; gain = 765.141
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:03 ; elapsed = 00:00:17 . Memory (MB): peak = 2406.938 ; gain = 735.445
+Synthesis Optimization Complete : Time (s): cpu = 00:00:05 ; elapsed = 00:00:20 . Memory (MB): peak = 2406.938 ; gain = 765.141
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2406.938 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2443.527 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+47 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:29 . Memory (MB): peak = 2448.555 ; gain = 1301.988
+INFO: [Common 17-1381] The checkpoint 'C:/Users/maxiu/Documents/Vivado2020/hdc1080Sensor/hdc1080Logic/hdc1080Logic.runs/synth_1/design_1_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 24 23:19:51 2023...
